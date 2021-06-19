@@ -1,0 +1,35 @@
+// * default values
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+// colors
+
+$background_color: #ac7531;
+$primary_font_color: #fff;
+
+// display and length
+
+$mainWidth: 1366px;
+$primary_gap: 10px;
+
+// links
+
+a:link {
+  font-size: 1rem;
+  color: $primary_font_color;
+  text-decoration: none;
+}
+
+a:visited {
+  color: $primary_font_color;
+}
+
+// classes
+
+.active {
+  background: rgb(189, 108, 16);
+}

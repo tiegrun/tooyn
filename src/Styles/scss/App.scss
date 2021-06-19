@@ -1,0 +1,55 @@
+@import 'config';
+@import 'header';
+@import 'topMain';
+@import 'main';
+@import 'bottomMain';
+@import 'footer';
+
+body {
+  background: $background_color;
+
+  #root {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  width: $mainWidth;
+  height: auto;
+  // border: 2px solid white;
+  margin-bottom: $primary_gap;
+
+  //more detailed _header.scss
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: $mainWidth;
+  height: 100%;
+  // border: 2px solid white;
+  margin-bottom: $primary_gap;
+
+  //more detailed _topMain.scss
+  // *** and
+  //more detailed _main.scss
+}
+
+footer {
+  display: flex;
+  width: $mainWidth;
+  height: 150px;
+  border: 2px solid green;
+
+  //more detailed _footer.scss
+}

@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $primary_font_color;
+  border: 1px solid green;
+  padding: 8px 14px;
+  line-height: 1.4;
+
+  h1 {
+    background: black;
+    padding: 5px 10px;
+    margin: $primary_gap;
+  }
+
+  h2 {
+    background: white;
+    color: black;
+    padding: 5px 10px;
+    margin: $primary_gap;
+  }
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  padding: 8px 14px;
+
+  // links _config.scss
+
+  a:link {
+    font-size: 1.1rem;
+    font-weight: bolder;
+    border: 2px solid white;
+    padding: 12px 26px;
+    background: black;
+    margin: 1px;
+    border-radius: 1px;
+  }
+}
